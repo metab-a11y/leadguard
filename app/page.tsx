@@ -19,6 +19,7 @@ export default async function Home() {
   const oldestQuote = quotes.reduce((oldest, lead) => Math.max(oldest, daysSince(lead.last_contact ?? lead.updated_at)), 0);
   const hour = new Date().getHours();
   const greeting = hour < 12 ? "Good morning" : hour < 18 ? "Good afternoon" : "Good evening";
+  const todayLabel = new Intl.DateTimeFormat("en-SG", { weekday: "long", day: "numeric", month: "long" }).format(new Date());
   const cards = [
     { value: newLeads.length, label: "New enquiries", note: `${receivedToday} received today`, href: "/leads?status=New", accent: "lime" },
     { value: needsFollowUp.length, label: "Need follow-up", note: `${overdue} ${overdue === 1 ? "is" : "are"} overdue`, href: "/leads?status=Follow-Up", accent: "pink" },
@@ -27,7 +28,7 @@ export default async function Home() {
   ];
   return (
     <div className="page-wrap dashboard-wrap">
-      <header className="dashboard-header"><div><p className="eyebrow">Thursday, 20 August</p><h1>{greeting}, Sarah.</h1><p>{priorities.length ? "Here is what needs your attention today." : "You're caught up. Here is how your business is performing."}</p></div><Link href="/leads" className="button primary">+ Add or view leads</Link></header>
+      <header className="dashboard-header"><div><p className="eyebrow">{todayLabel}</p><h1>{greeting}, Sarah.</h1><p>{priorities.length ? "Here is what needs your attention today." : "You're caught up. Here is how your business is performing."}</p></div><Link href="/leads" className="button primary">+ Add or view leads</Link></header>
       <section className="summary-grid" aria-label="Lead summary">
         {cards.map((card) => <Link className={`summary-card summary-${card.accent}`} href={card.href} key={card.label}><span className="summary-arrow" aria-hidden="true">↗</span><strong>{card.value}</strong><h2>{card.label}</h2><p>{card.note}</p></Link>)}
       </section>

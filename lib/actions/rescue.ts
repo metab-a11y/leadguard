@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { completeFollowUp } from "@/lib/data/followups";
 import { getLead, updateLead } from "@/lib/data/leads";
 import { addTimelineEntry } from "@/lib/data/timeline";
+import { addAuditEntry } from "@/lib/data/audit";
 import type { ActionResult } from "@/lib/actions/leads";
 
 function refresh(leadId: string) {
@@ -29,10 +30,10 @@ export async function markHandledAction(leadId: string, followUpId?: string): Pr
       "response",
       followUpId ? "Rescue item handled and follow-up completed" : "Rescue item marked handled",
     );
+    await addAuditEntry({ action: "rescue_candidate_handled", targetType: "lead", targetId: leadId, riskLevel: "medium", approvedBy: "Demo user" });
     refresh(leadId);
     return { ok: true, id: leadId };
   } catch (error) {
     return { ok: false, error: error instanceof Error ? error.message : "We couldn't mark this item handled." };
   }
 }
-

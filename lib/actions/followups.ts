@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { completeFollowUp, createFollowUp } from "@/lib/data/followups";
 import { updateLead } from "@/lib/data/leads";
 import { addTimelineEntry } from "@/lib/data/timeline";
+import { addAuditEntry } from "@/lib/data/audit";
 import { formatDateTime } from "@/lib/utils/dates";
 import type { ActionResult } from "@/lib/actions/leads";
 
@@ -41,6 +42,7 @@ export async function createFollowUpAction(leadId: string, formData: FormData): 
       "followup",
       `Follow-up scheduled for ${formatDateTime(new Date(dueDate).toISOString())}${recommendedAction ? ` — ${recommendedAction}` : ""}`,
     );
+    await addAuditEntry({ action: "followup_created", targetType: "lead", targetId: leadId, riskLevel: "medium", approvedBy: "Demo user" });
     refresh(leadId);
     return { ok: true, id: leadId };
   } catch (error) {
@@ -53,6 +55,7 @@ export async function completeFollowUpAction(followUpId: string, leadId: string)
     await completeFollowUp(followUpId);
     await updateLead(leadId, { last_contact: new Date().toISOString(), next_follow_up: null, health: "Active" });
     await addTimelineEntry(leadId, "followup", "Follow-up marked complete");
+    await addAuditEntry({ action: "followup_completed", targetType: "lead", targetId: leadId, riskLevel: "medium", approvedBy: "Demo user" });
     refresh(leadId);
     return { ok: true, id: leadId };
   } catch (error) {

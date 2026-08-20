@@ -93,3 +93,26 @@ export type PerformanceMetric = {
   created_at: string;
 };
 
+export type SupportRequest = {
+  id: string;
+  category: string;
+  subject: string;
+  description: string;
+  priority: string;
+  status: string;
+  submitted_by: string | null;
+  abcstudio_response: string | null;
+  completed_at: string | null;
+  created_at: string;
+};
+
+export type Recommendation = {
+  id: string;
+  category: string;
+  observation: string;
+  why_it_matters: string;
+  recommended_action: string;
+  priority: string;
+  status: string;
+  created_at: string;
+};

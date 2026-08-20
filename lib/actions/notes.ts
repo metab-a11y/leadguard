@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { updateLead } from "@/lib/data/leads";
 import { addTimelineEntry } from "@/lib/data/timeline";
+import { addAuditEntry } from "@/lib/data/audit";
 import type { ActionResult } from "@/lib/actions/leads";
 
 export async function addNoteAction(leadId: string, formData: FormData): Promise<ActionResult> {
@@ -11,6 +12,7 @@ export async function addNoteAction(leadId: string, formData: FormData): Promise
     if (!note) return { ok: false, error: "Write a note before saving." };
     await addTimelineEntry(leadId, "note", note);
     await updateLead(leadId, { notes: note, last_contact: new Date().toISOString() });
+    await addAuditEntry({ action: "note_added", targetType: "lead", targetId: leadId });
     revalidatePath(`/leads/${leadId}`);
     revalidatePath("/");
     revalidatePath("/rescue");
@@ -19,4 +21,3 @@ export async function addNoteAction(leadId: string, formData: FormData): Promise
     return { ok: false, error: error instanceof Error ? error.message : "We couldn't save this note." };
   }
 }
-

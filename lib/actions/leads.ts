@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { createLead, getLead, updateLead } from "@/lib/data/leads";
 import { addTimelineEntry } from "@/lib/data/timeline";
+import { addAuditEntry } from "@/lib/data/audit";
 import { LEAD_SOURCES, LEAD_STATUSES, PRIORITIES, type LeadStatus } from "@/lib/types";
 
 export type ActionResult = { ok: true; id?: string } | { ok: false; error: string };
@@ -45,6 +46,7 @@ export async function createLeadAction(formData: FormData): Promise<ActionResult
       value: value(formData, "value") ? Number(value(formData, "value")) : null,
     });
     await addTimelineEntry(lead.id, "enquiry", `Enquiry added manually${summary ? ` — ${summary}` : ""}`);
+    await addAuditEntry({ action: "lead_created", targetType: "lead", targetId: lead.id });
     refreshLead(lead.id);
     return { ok: true, id: lead.id };
   } catch (error) {
@@ -65,10 +67,10 @@ export async function updateLeadStatusAction(leadId: string, status: string): Pr
       health: status === "Won" || status === "Lost" ? "Closed" : lead.health,
     });
     await addTimelineEntry(leadId, "status_change", `Status changed from ${lead.status} to ${status}`);
+    await addAuditEntry({ action: `status_changed:${lead.status}->${status}`, targetType: "lead", targetId: leadId, riskLevel: "medium", approvedBy: "Demo user" });
     refreshLead(leadId);
     return { ok: true, id: leadId };
   } catch (error) {
     return { ok: false, error: error instanceof Error ? error.message : "We couldn't update the status." };
   }
 }
-

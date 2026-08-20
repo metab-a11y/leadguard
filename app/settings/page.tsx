@@ -1,0 +1,3 @@
+import { PageHeader } from "@/components/ui";
+export default function SettingsPage() { return <div className="page-wrap"><PageHeader eyebrow="Account" title="Settings" description="LeadGuard is currently configured as an open, seeded demo workspace." /><section className="settings-grid"><article><span>01</span><h2>Demo mode</h2><p>No login is required, so anyone with the link can try the full lead workflow.</p></article><article><span>02</span><h2>Notifications</h2><p>Notification preferences will be enabled with account authentication.</p></article><article><span>03</span><h2>Data access</h2><p>Per-user and role-based access is the next lock-down milestone before real customer data.</p></article></section></div>; }
+
