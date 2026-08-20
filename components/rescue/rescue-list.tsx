@@ -30,7 +30,7 @@ export function RescueList({ candidates }: { candidates: RescueCandidate[] }) {
     const date = new Date(Date.now() + 86_400_000);
     date.setHours(9, 0, 0, 0);
     const data = new FormData();
-    data.set("due_date", toDateTimeLocal(date));
+    data.set("due_date", new Date(toDateTimeLocal(date)).toISOString());
     data.set("responsible_person", candidate.lead.assigned_to || "Sarah Lee");
     data.set("recommended_action", candidate.recommendedAction);
     data.set("priority", candidate.priority === "High" ? "Urgent" : "Important");
@@ -56,4 +56,3 @@ export function RescueList({ candidates }: { candidates: RescueCandidate[] }) {
     </div>
   );
 }
-

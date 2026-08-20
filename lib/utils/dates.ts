@@ -16,13 +16,13 @@ export function followUpStatus(dueDate: string, completedAt?: string | null) {
 
 export function formatDate(value?: string | null, options?: Intl.DateTimeFormatOptions) {
   if (!value) return "Not set";
-  return new Intl.DateTimeFormat("en-SG", options ?? { dateStyle: "medium" }).format(
+  return new Intl.DateTimeFormat("en-SG", { timeZone: "Asia/Singapore", ...(options ?? { dateStyle: "medium" }) }).format(
     new Date(value),
   );
 }
 
 export function formatDateTime(value?: string | null) {
-  return formatDate(value, { dateStyle: "medium", timeStyle: "short" });
+  return formatDate(value, { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Singapore" });
 }
 
 export function daysSince(value?: string | null) {
@@ -34,4 +34,3 @@ export function toDateTimeLocal(date: Date) {
   const offset = date.getTimezoneOffset();
   return new Date(date.getTime() - offset * 60_000).toISOString().slice(0, 16);
 }
-

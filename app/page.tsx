@@ -19,7 +19,7 @@ export default async function Home() {
   const oldestQuote = quotes.reduce((oldest, lead) => Math.max(oldest, daysSince(lead.last_contact ?? lead.updated_at)), 0);
   const hour = new Date().getHours();
   const greeting = hour < 12 ? "Good morning" : hour < 18 ? "Good afternoon" : "Good evening";
-  const todayLabel = new Intl.DateTimeFormat("en-SG", { weekday: "long", day: "numeric", month: "long" }).format(new Date());
+  const todayLabel = new Intl.DateTimeFormat("en-SG", { weekday: "long", day: "numeric", month: "long", timeZone: "Asia/Singapore" }).format(new Date());
   const cards = [
     { value: newLeads.length, label: "New enquiries", note: `${receivedToday} received today`, href: "/leads?status=New", accent: "lime" },
     { value: needsFollowUp.length, label: "Need follow-up", note: `${overdue} ${overdue === 1 ? "is" : "are"} overdue`, href: "/leads?status=Follow-Up", accent: "pink" },

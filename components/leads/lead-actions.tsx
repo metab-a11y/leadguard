@@ -31,6 +31,10 @@ export function LeadActions({ lead, followUps }: { lead: Lead; followUps: Follow
   function submit(event: FormEvent<HTMLFormElement>, kind: Exclude<Panel, null>) {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
+    if (kind === "followup") {
+      const localDueDate = String(formData.get("due_date") ?? "");
+      if (localDueDate) formData.set("due_date", new Date(localDueDate).toISOString());
+    }
     if (kind === "note") execute(() => addNoteAction(lead.id, formData));
     if (kind === "followup") execute(() => createFollowUpAction(lead.id, formData));
     if (kind === "status") execute(() => updateLeadStatusAction(lead.id, String(formData.get("status"))));
@@ -73,4 +77,3 @@ export function LeadActions({ lead, followUps }: { lead: Lead; followUps: Follow
     </>
   );
 }
-
