@@ -1,0 +1,2259 @@
+# GRAND MASTER APP BUILDER PROMPT
+
+## PRODUCT NAME
+
+**LeadGuard by abcstudio**
+
+### Tagline
+
+**No Lead Left Behind**
+
+---
+
+# 1. PRODUCT VISION
+
+Build a modern client application called **LeadGuard by abcstudio**.
+
+LeadGuard is the client control centre for businesses working with abcstudio.
+
+It connects the four main abcstudio services:
+
+1. Website Revamp
+2. SEO + AEO
+3. AI Chatbot
+4. AI Voice Assistant
+
+into one simple experience focused on helping the client:
+
+**Get Found → Capture Enquiries → Respond → Follow Up → Convert → Grow**
+
+LeadGuard must NOT become complicated enterprise CRM software.
+
+It should be designed specifically for busy owners and small teams who want to know:
+
+> **Who needs my attention today?**
+
+That is the primary product question.
+
+Every screen, feature and recommendation should support that question.
+
+---
+
+# 2. CORE PRODUCT PROMISE
+
+LeadGuard helps a business owner:
+
+- See incoming enquiries
+- Know where each enquiry came from
+- Know who has already been contacted
+- Know who still needs a reply
+- Track quotations
+- Schedule follow-ups
+- Identify leads becoming cold
+- Rescue forgotten opportunities
+- See website and visibility performance
+- See chatbot-generated enquiries
+- See voice-generated enquiries
+- Request support from abcstudio
+- Understand what should be improved next
+
+The product philosophy is:
+
+# NO LEAD LEFT BEHIND
+
+---
+
+# 3. TARGET USER
+
+Primary users are:
+
+- Owner-led service businesses
+- Small businesses
+- Local businesses
+- Businesses without sophisticated sales systems
+- Teams currently using email, messages, calls, spreadsheets or memory to manage enquiries
+
+Assume users are:
+
+- Busy
+- Non-technical
+- Frequently mobile
+- More interested in customers and revenue than complicated analytics
+- Unwilling to spend significant time learning software
+
+Therefore:
+
+**Simplicity is more important than feature quantity.**
+
+---
+
+# 4. PRODUCT EXPERIENCE PRINCIPLES
+
+The interface should feel:
+
+- Friendly
+- Calm
+- Modern
+- Premium
+- Clear
+- Fast
+- Human
+- Encouraging
+
+Avoid:
+
+- Technical jargon
+- Complicated menus
+- Dense tables
+- Excessive charts
+- Too many settings
+- Enterprise CRM terminology
+- Unnecessary animations
+- Information overload
+
+A new user should understand the main dashboard within approximately **5–10 seconds**.
+
+---
+
+# 5. USER ROLES
+
+Create four permission levels.
+
+## A. Business Owner
+
+Full access to their company's LeadGuard account.
+
+Can:
+
+- View all leads
+- Manage leads
+- View performance
+- View Lead Rescue
+- Add team members
+- View recommendations
+- Request abcstudio support
+- Manage notification preferences
+
+---
+
+## B. Manager
+
+Can:
+
+- View leads
+- Update leads
+- Assign leads
+- Set follow-ups
+- View performance
+- View Lead Rescue
+
+Cannot:
+
+- Manage billing
+- Change account ownership
+- Access sensitive account administration
+
+---
+
+## C. Staff
+
+Can:
+
+- View assigned leads
+- Update assigned leads
+- Add notes
+- Record customer contact
+- Set follow-up
+- Mark actions complete
+
+Performance information may be restricted.
+
+---
+
+## D. abcstudio Administrator
+
+Separate administrative environment.
+
+Can manage multiple client accounts.
+
+The abcstudio admin must never be mixed visually with the client's normal interface.
+
+---
+
+# 6. CLIENT LOGIN EXPERIENCE
+
+After login, take the customer directly to their dashboard.
+
+Do not create unnecessary welcome screens.
+
+Header:
+
+**Good morning, [First Name].**
+
+Secondary text:
+
+**Here is what needs your attention today.**
+
+If nothing urgent exists:
+
+**You're caught up. Here is how your business is performing.**
+
+---
+
+# 7. MAIN NAVIGATION
+
+Use a maximum of five primary navigation areas:
+
+### 1. Home
+
+### 2. My Leads
+
+### 3. Lead Rescue
+
+### 4. Performance
+
+### 5. abcstudio Support
+
+Place secondary options such as profile, team members and settings inside the account menu.
+
+On mobile, use simple bottom navigation.
+
+---
+
+# 8. HOME DASHBOARD
+
+The Home screen is the most important screen.
+
+It must answer:
+
+### What happened?
+
+### Who needs attention?
+
+### What should I do next?
+
+Display four main cards.
+
+---
+
+## CARD 1 — NEW LEADS
+
+Example:
+
+**12**
+
+New enquiries
+
+Subtext:
+
+**3 received today**
+
+Clicking opens filtered New Leads.
+
+---
+
+## CARD 2 — NEED FOLLOW-UP
+
+Example:
+
+**4**
+
+Need follow-up
+
+Subtext:
+
+**2 are overdue**
+
+Clicking opens Follow-Up leads.
+
+---
+
+## CARD 3 — QUOTATIONS PENDING
+
+Example:
+
+**5**
+
+Quotes awaiting response
+
+Subtext:
+
+**Oldest: 8 days**
+
+Clicking opens quotation leads.
+
+---
+
+## CARD 4 — AT-RISK LEADS
+
+Example:
+
+**2**
+
+At-risk opportunities
+
+Subtext:
+
+**Take action before they go cold**
+
+Clicking opens Lead Rescue.
+
+---
+
+# 9. TODAY'S PRIORITIES
+
+Below the summary cards create:
+
+# Today's Priorities
+
+Show a maximum of approximately 5 important actions.
+
+Example:
+
+**James Tan — quotation sent 6 days ago**
+
+Recommended action:
+
+**Follow up today**
+
+Buttons:
+
+**View Lead**
+
+**Done**
+
+---
+
+Example:
+
+**Sarah Lee — website enquiry received yesterday**
+
+Recommended action:
+
+**No response recorded**
+
+Button:
+
+**Respond**
+
+---
+
+Priorities should be ranked using:
+
+- Lead urgency
+- Follow-up due date
+- Time since last response
+- Quotation age
+- Lead status
+- Customer interest
+- Unanswered enquiry
+
+---
+
+# 10. MY LEADS
+
+Create a simple lead management area.
+
+Default view should be easy to scan.
+
+Each lead should contain:
+
+- Lead ID
+- Customer name
+- Company name
+- Telephone number
+- Email
+- Enquiry date
+- Enquiry time
+- Lead source
+- Product/service requested
+- Enquiry summary
+- Assigned team member
+- Lead status
+- Priority
+- Last contact date
+- Next follow-up date
+- Quotation status
+- Notes
+- Value if entered
+- Date created
+- Date last updated
+
+---
+
+# 11. LEAD SOURCES
+
+Support these source categories:
+
+- Website
+- Search
+- Chatbot
+- Voice Assistant
+- Phone
+- Email
+- Messaging
+- Referral
+- Manual Entry
+- Other
+
+Make source categories configurable later.
+
+---
+
+# 12. LEAD STATUS SYSTEM
+
+Use the following default stages:
+
+### New
+
+Lead received but not yet contacted.
+
+### Contacted
+
+Initial response has been made.
+
+### Qualified
+
+Lead appears relevant and worth pursuing.
+
+### Quotation Sent
+
+Proposal or quotation delivered.
+
+### Follow-Up
+
+Active follow-up required.
+
+### Won
+
+Customer converted.
+
+### Lost
+
+Opportunity closed without conversion.
+
+Make the status visually clear but not overly colourful or distracting.
+
+---
+
+# 13. LEAD PIPELINE VIEW
+
+Provide two optional views:
+
+### List View
+
+Best for detailed management.
+
+### Pipeline View
+
+Columns:
+
+New → Contacted → Qualified → Quotation → Follow-Up → Won/Lost
+
+Allow leads to move between stages easily.
+
+Default to List View for simplicity.
+
+---
+
+# 14. LEAD DETAIL PAGE
+
+Opening a lead should show all important information on one clean page.
+
+Top section:
+
+**Customer Name**
+
+Company
+
+Status
+
+Priority
+
+Source
+
+Assigned Staff
+
+---
+
+## QUICK ACTIONS
+
+Provide prominent actions:
+
+**Call**
+
+**Message**
+
+**Email**
+
+**Add Note**
+
+**Set Follow-Up**
+
+**Update Status**
+
+---
+
+# 15. CUSTOMER ACTIVITY TIMELINE
+
+Create a chronological timeline.
+
+Example:
+
+### 20 August — 10:15 AM
+
+Website enquiry received.
+
+### 20 August — 10:42 AM
+
+Initial response recorded.
+
+### 21 August
+
+Customer requested pricing.
+
+### 21 August
+
+Quotation sent.
+
+### 25 August
+
+Follow-up scheduled.
+
+### 26 August
+
+Follow-up overdue.
+
+Timeline entries should be easy to scan.
+
+---
+
+# 16. FOLLOW-UP SYSTEM
+
+Follow-up management is a central LeadGuard function.
+
+Each follow-up should have:
+
+- Date
+- Optional time
+- Responsible person
+- Recommended action
+- Notes
+- Priority
+- Completion status
+
+Priority options:
+
+**Normal**
+
+**Important**
+
+**Urgent**
+
+---
+
+# 17. FOLLOW-UP STATUS
+
+Clearly identify:
+
+### Due Today
+
+### Upcoming
+
+### Overdue
+
+### Completed
+
+Overdue items should be noticeable but not alarming.
+
+Use supportive language such as:
+
+**Follow-up is 2 days overdue**
+
+rather than aggressive warnings.
+
+---
+
+# 18. MONDAY LEAD RESCUE
+
+Create a signature feature:
+
+# Monday Lead Rescue
+
+This represents abcstudio's Monday Lead Rescue List.
+
+Every Monday, LeadGuard should identify opportunities that may require attention.
+
+Opening message:
+
+**Your Lead Rescue List**
+
+Subtext:
+
+**These opportunities may need attention this week.**
+
+---
+
+# 19. LEAD RESCUE RULES
+
+A lead may become a rescue candidate when:
+
+- A new enquiry has not been answered
+- Follow-up is overdue
+- A quotation has not been followed up
+- The customer previously expressed interest but communication stopped
+- No activity has occurred for a configurable number of days
+- A promised follow-up date was missed
+- A call or conversation captured a lead but no next action exists
+
+Do not automatically declare a lead "lost".
+
+Instead state:
+
+**This opportunity may need attention.**
+
+---
+
+# 20. LEAD RESCUE CARD
+
+Example:
+
+### ABC Engineering
+
+**Quotation Sent**
+
+Last contact:
+
+**6 days ago**
+
+Why this appears:
+
+**No follow-up recorded after quotation**
+
+Recommended action:
+
+**Check whether the customer has questions about the quotation.**
+
+Buttons:
+
+**View Lead**
+
+**Set Follow-Up**
+
+**Mark Handled**
+
+---
+
+# 21. LEAD RESCUE PRIORITY
+
+Use a simple priority system.
+
+### High
+
+Strong opportunity with overdue action.
+
+### Medium
+
+Follow-up should happen soon.
+
+### Watch
+
+No immediate problem but opportunity is becoming inactive.
+
+Do not expose complicated scoring formulas to normal users.
+
+---
+
+# 22. LEAD HEALTH INDICATOR
+
+Optionally show a simple indicator:
+
+### Active
+
+Recent communication and next step exists.
+
+### Needs Attention
+
+Follow-up or response required.
+
+### At Risk
+
+Opportunity may become cold.
+
+### Closed
+
+Won or Lost.
+
+Make this understandable without training.
+
+---
+
+# 23. PERFORMANCE DASHBOARD
+
+The Performance section brings together the four main abcstudio services.
+
+Create four primary performance areas:
+
+1. Website
+2. SEO + AEO
+3. Chatbot
+4. Voice Assistant
+
+Do not display technical data unless it helps the owner make a decision.
+
+---
+
+# 24. WEBSITE PERFORMANCE
+
+Show useful metrics such as:
+
+- Website enquiries
+- Enquiries this month
+- Enquiry trend
+- Most visited services
+- Most effective enquiry pages
+- Conversion trend where data exists
+
+Primary emphasis:
+
+**Is the website generating useful enquiries?**
+
+---
+
+# 25. SEO + AEO PERFORMANCE
+
+Show:
+
+- Search visibility trend
+- Important customer questions
+- Important search terms
+- Pages improving
+- Pages needing attention
+- Search-driven enquiries
+
+Avoid excessive ranking tables.
+
+Translate information into plain business language.
+
+Instead of:
+
+**CTR decreased 9.4%**
+
+prefer:
+
+**Your website appeared in searches, but fewer people clicked through this month.**
+
+---
+
+# 26. CHATBOT PERFORMANCE
+
+Show:
+
+- Conversations handled
+- Enquiries captured
+- After-hours enquiries
+- Common questions
+- Qualified leads
+- Leads requiring human response
+
+Highlight business outcomes instead of conversation volume alone.
+
+---
+
+# 27. VOICE ASSISTANT PERFORMANCE
+
+Show:
+
+- Calls handled
+- Enquiries captured
+- After-hours calls handled
+- Missed opportunities recovered
+- Booking enquiries
+- Calls requiring staff attention
+
+The user should immediately know:
+
+**Which callers still require human follow-up?**
+
+---
+
+# 28. BUSINESS LANGUAGE RULE
+
+Whenever displaying analytics, use:
+
+### What happened
+
+### Why it matters
+
+### Recommended next step
+
+Example:
+
+**What happened**
+
+Website enquiries increased from last month.
+
+**Why it matters**
+
+More visitors are taking action.
+
+**Recommended next step**
+
+Review the services generating the most enquiries and strengthen those pages.
+
+---
+
+# 29. MONTHLY GROWTH SUMMARY
+
+Create a simple monthly report.
+
+Header:
+
+# Your [Month] Growth Summary
+
+Example:
+
+**42 New Enquiries**
+
+**31 Followed Up**
+
+**12 Quotations**
+
+**6 Won**
+
+**5 Leads Rescued**
+
+---
+
+Then show:
+
+## What Improved
+
+Examples:
+
+- More website enquiries
+- Faster response
+- More search visibility
+- More after-hours leads captured
+
+---
+
+## What Needs Attention
+
+Examples:
+
+- 5 quotations still waiting for follow-up
+- Response time increased
+- Several enquiries have no next action
+
+---
+
+## Recommended Next Steps
+
+Provide a maximum of approximately 3 priorities.
+
+Keep recommendations specific and actionable.
+
+---
+
+# 30. ABCSTUDIO SUPPORT CENTRE
+
+Create a dedicated section:
+
+# abcstudio Support
+
+Opening message:
+
+**How can we help?**
+
+Options:
+
+### Website Support
+
+### SEO + AEO Question
+
+### Chatbot Update
+
+### Voice Assistant Update
+
+### Lead Flow Review
+
+### Growth Review
+
+### General Support
+
+---
+
+# 31. SUPPORT REQUEST
+
+A support request should capture:
+
+- Category
+- Subject
+- Description
+- Priority
+- Optional file/image
+- Date submitted
+- Status
+- abcstudio response
+
+Statuses:
+
+**Received**
+
+**Reviewing**
+
+**Action Required**
+
+**Completed**
+
+---
+
+# 32. REQUEST A GROWTH REVIEW
+
+Create a prominent option:
+
+**Request Growth Review**
+
+Explain:
+
+**Ask abcstudio to review your lead flow, follow-up and current digital performance.**
+
+This should help maintain the founder-to-founder relationship between abcstudio and the client.
+
+---
+
+# 33. ABCSTUDIO RECOMMENDATIONS
+
+Allow abcstudio to provide recommendations directly inside LeadGuard.
+
+Examples:
+
+**Website Recommendation**
+
+Your service page receives traffic but produces few enquiries.
+
+**Suggested Action**
+
+Clarify the service offer and enquiry CTA.
+
+---
+
+**Lead Recommendation**
+
+7 quotations remain open for more than five days.
+
+**Suggested Action**
+
+Run a quotation follow-up this week.
+
+---
+
+Recommendations should never exaggerate results or guarantee outcomes.
+
+---
+
+# 34. NOTIFICATION CENTRE
+
+Create useful notifications.
+
+Examples:
+
+**New enquiry received**
+
+**Follow-up due today**
+
+**2 follow-ups are overdue**
+
+**Quotation waiting 5 days**
+
+**Your Monday Lead Rescue List is ready**
+
+**Your monthly Growth Summary is ready**
+
+**abcstudio added a recommendation**
+
+Allow users to control notifications.
+
+---
+
+# 35. NOTIFICATION PRIORITY
+
+Do not overload customers.
+
+Prioritize notifications that require action.
+
+Combine repetitive low-priority notifications where appropriate.
+
+Example:
+
+Instead of sending five separate reminders:
+
+**You have 5 leads requiring attention today.**
+
+---
+
+# 36. SEARCH
+
+Provide universal lead search.
+
+Users should be able to search by:
+
+- Name
+- Company
+- Email
+- Telephone
+- Product/service
+- Notes
+
+Search results should appear quickly.
+
+---
+
+# 37. FILTERS
+
+Allow simple filtering by:
+
+- Status
+- Source
+- Assigned staff
+- Follow-up date
+- Priority
+- Lead health
+- Date received
+
+Keep advanced filters hidden unless required.
+
+---
+
+# 38. QUICK ADD LEAD
+
+Provide:
+
+**+ Add Lead**
+
+The owner or staff member can manually add enquiries received outside connected channels.
+
+Minimum required fields:
+
+- Customer name OR company
+- Contact information
+- Enquiry summary
+
+Everything else should be optional initially.
+
+---
+
+# 39. DATA CONNECTION PHILOSOPHY
+
+LeadGuard should be designed to receive lead and performance information from abcstudio's services.
+
+Do NOT hard-code or expose internal backend technology names in the client interface.
+
+Present connections in user-friendly terms such as:
+
+- Website Connected
+- Chatbot Connected
+- Voice Connected
+- Search Data Connected
+
+The system architecture should allow integrations to be added or replaced later without redesigning the customer experience.
+
+---
+
+# 40. MANUAL FALLBACK
+
+Never make LeadGuard unusable because an integration is unavailable.
+
+Allow:
+
+- Manual lead entry
+- Manual updates
+- Manual performance input where necessary
+- Manual abcstudio recommendations
+
+This is important for Version 1.
+
+---
+
+# 41. ABCSTUDIO ADMIN DASHBOARD
+
+Build a separate admin area for abcstudio.
+
+Home screen should show:
+
+### Active Clients
+
+### New Leads Across Clients
+
+### Clients With At-Risk Leads
+
+### Open Support Requests
+
+### Growth Reviews Requested
+
+### Recommendations Awaiting Review
+
+---
+
+# 42. CLIENT MANAGEMENT
+
+abcstudio can:
+
+- Create client
+- Edit client
+- Activate/deactivate client
+- Invite client owner
+- Add staff
+- Configure services
+- Configure lead sources
+- Set client status
+- Add recommendations
+- View client performance
+- Review Lead Rescue
+- Manage support tickets
+
+---
+
+# 43. CLIENT SERVICE STATUS
+
+For each client, abcstudio should see which services are active:
+
+### Website Revamp
+
+Active / Not Active
+
+### SEO + AEO
+
+Active / Not Active
+
+### Chatbot
+
+Active / Not Active
+
+### Voice Assistant
+
+Active / Not Active
+
+Only show performance modules relevant to active services.
+
+---
+
+# 44. ADMIN LEAD RESCUE VIEW
+
+Allow abcstudio to see:
+
+**Clients With Leads At Risk**
+
+Example:
+
+XYZ Plumbing
+
+**6 leads need attention**
+
+ABC Tuition
+
+**3 quotations have no follow-up**
+
+The purpose is NOT for abcstudio to become the client's salesperson.
+
+The purpose is to help abcstudio identify where the client's lead process may be leaking.
+
+---
+
+# 45. MONDAY FOLLOW-UP MAP
+
+Create an abcstudio admin version of the Monday Follow-Up Map.
+
+Every Monday it should summarize:
+
+- Open enquiries
+- Missed replies
+- Overdue follow-ups
+- Old quotations
+- Leads without next steps
+- Clients requiring attention
+
+This should help abcstudio prepare its Monday client support workflow.
+
+---
+
+# 46. DESIGN SYSTEM
+
+Use the abcstudio brand direction.
+
+## Primary
+
+**#151515**
+
+## Accent
+
+**#D6FF00**
+
+## Support
+
+**#FF3D81**
+
+## Background
+
+**#F2F2E8**
+
+Use white where additional contrast is required.
+
+---
+
+# 47. TYPOGRAPHY DIRECTION
+
+Headings:
+
+**Archivo Black**
+
+Body:
+
+**Manrope**
+
+If exact fonts cannot be used, choose visually similar highly readable alternatives while preserving hierarchy.
+
+---
+
+# 48. VISUAL PERSONALITY
+
+The abcstudio brand is:
+
+**Forged**
+
+**Direct**
+
+**Calm**
+
+LeadGuard should express this through:
+
+- Strong headings
+- Clear action buttons
+- Clean layouts
+- Generous spacing
+- Minimal clutter
+- Direct language
+- Calm notifications
+
+Do not make the app aggressive despite the strong visual identity.
+
+---
+
+# 49. CARD DESIGN
+
+Use cards to organise information.
+
+Cards should have:
+
+- Clear title
+- Large important number where relevant
+- One-line explanation
+- One obvious action where relevant
+
+Avoid putting more than necessary into each card.
+
+---
+
+# 50. MOBILE-FIRST DESIGN
+
+Most important workflows must work comfortably on a phone.
+
+Optimize for:
+
+**Open app**
+
+↓
+
+**See issue**
+
+↓
+
+**Open lead**
+
+↓
+
+**Take action**
+
+Aim for important tasks to require approximately **2–3 taps**.
+
+---
+
+# 51. MOBILE QUICK ACTIONS
+
+On lead records provide easy access to:
+
+**Call**
+
+**Message**
+
+**Email**
+
+**Follow Up**
+
+**Add Note**
+
+Buttons should be finger-friendly.
+
+---
+
+# 52. DESKTOP EXPERIENCE
+
+Desktop should provide additional screen space for:
+
+- Lead lists
+- Performance
+- Pipeline
+- Administration
+
+Do not create completely different mobile and desktop workflows.
+
+Maintain consistency.
+
+---
+
+# 53. EMPTY STATES
+
+Never show an empty blank page.
+
+Example:
+
+### No leads yet
+
+**New enquiries will appear here when they arrive.**
+
+Button:
+
+**Add Lead**
+
+---
+
+Example:
+
+### No follow-ups today
+
+**You're caught up.**
+
+---
+
+Example:
+
+### No Lead Rescue items
+
+**Great. No opportunities currently require rescue.**
+
+---
+
+# 54. ERROR STATES
+
+Use friendly language.
+
+Avoid:
+
+**Error 5073: API failure**
+
+Prefer:
+
+**We couldn't update this information right now. Your existing data is safe. Try again shortly.**
+
+Provide a retry action where appropriate.
+
+---
+
+# 55. LOADING STATES
+
+Use simple loading indicators or skeleton content.
+
+Do not create distracting animations.
+
+---
+
+# 56. ACCESSIBILITY
+
+Build for readability.
+
+Requirements:
+
+- Strong text contrast
+- Clear button labels
+- Minimum comfortable text sizes
+- Keyboard accessibility where applicable
+- Screen-reader-friendly labels
+- Do not rely purely on colour to communicate status
+- Large mobile interaction targets
+
+---
+
+# 57. SECURITY AND PRIVACY
+
+Lead information is confidential business information.
+
+Implement appropriate safeguards.
+
+Requirements:
+
+- Secure authentication
+- Client data separation
+- Role-based permissions
+- Users can only access authorised company information
+- Secure session handling
+- Protected administrative access
+- Audit important data changes where practical
+- Safe password recovery
+- Appropriate protection of uploaded files
+- No client should ever see another client's data
+
+---
+
+# 58. AUDIT HISTORY
+
+For important lead actions keep a basic activity history.
+
+Record:
+
+- What changed
+- Who changed it
+- When it changed
+
+Examples:
+
+**Status changed from Contacted to Quotation Sent by Sarah.**
+
+**Follow-up changed from 21 August to 23 August by James.**
+
+Do not expose unnecessary system logs.
+
+---
+
+# 59. DATA MODEL — CLIENT
+
+Create a client/company entity containing:
+
+- Client ID
+- Business name
+- Industry
+- Primary contact
+- Email
+- Telephone
+- Account status
+- Active abcstudio services
+- Subscription/service status
+- Date joined
+- Team members
+- Settings
+
+---
+
+# 60. DATA MODEL — LEAD
+
+Create a lead entity containing:
+
+- Lead ID
+- Client ID
+- Customer name
+- Company name
+- Telephone
+- Email
+- Source
+- Enquiry
+- Product/service
+- Status
+- Priority
+- Lead health
+- Assigned user
+- Last contact
+- Next follow-up
+- Quotation status
+- Estimated value if available
+- Notes
+- Created date
+- Updated date
+
+---
+
+# 61. DATA MODEL — ACTIVITY
+
+Create an activity entity containing:
+
+- Activity ID
+- Lead ID
+- Activity type
+- User
+- Date/time
+- Notes
+- Outcome
+- Next action
+
+Activity examples:
+
+- Enquiry received
+- Call
+- Email
+- Message
+- Meeting
+- Quotation
+- Follow-up
+- Note
+- Status change
+
+---
+
+# 62. DATA MODEL — FOLLOW-UP
+
+Include:
+
+- Follow-up ID
+- Lead ID
+- Assigned user
+- Due date
+- Due time
+- Priority
+- Action
+- Notes
+- Completion status
+- Completion date
+
+---
+
+# 63. DATA MODEL — SUPPORT
+
+Include:
+
+- Support request ID
+- Client ID
+- Category
+- Subject
+- Description
+- Priority
+- Status
+- Submitted by
+- Submitted date
+- abcstudio response
+- Completed date
+
+---
+
+# 64. DATA MODEL — RECOMMENDATION
+
+Include:
+
+- Recommendation ID
+- Client ID
+- Category
+- Observation
+- Why it matters
+- Recommended action
+- Priority
+- Date
+- Status
+
+Categories:
+
+- Website
+- SEO + AEO
+- Chatbot
+- Voice
+- Lead Flow
+- General Growth
+
+---
+
+# 65. PERFORMANCE DATA MODEL
+
+Allow performance records for:
+
+### Website
+
+### SEO + AEO
+
+### Chatbot
+
+### Voice Assistant
+
+Each record should support:
+
+- Metric
+- Period
+- Value
+- Previous value where applicable
+- Trend
+- Plain-language explanation
+- Recommended action
+
+---
+
+# 66. SMART ASSISTANCE PRINCIPLE
+
+LeadGuard may provide intelligent suggestions.
+
+However:
+
+- Never invent customer actions
+- Never invent enquiries
+- Never claim a sale happened unless recorded
+- Never change lead status automatically without transparent rules
+- Never send customer communications without explicit user action or approved workflow
+- Clearly differentiate suggestions from confirmed information
+
+---
+
+# 67. RECOMMENDED ACTION ENGINE
+
+For relevant situations provide simple suggestions.
+
+Example:
+
+Situation:
+
+Quotation sent 7 days ago.
+
+Suggestion:
+
+**Consider following up to check whether the customer has questions.**
+
+---
+
+Situation:
+
+New enquiry has no response recorded.
+
+Suggestion:
+
+**This customer may still be waiting for a response.**
+
+---
+
+Situation:
+
+Website enquiries falling.
+
+Suggestion:
+
+**Review the pages generating the highest traffic but few enquiries.**
+
+Use helpful language rather than commands.
+
+---
+
+# 68. DAILY VIEW
+
+Optionally create:
+
+# Today
+
+Show:
+
+- New leads
+- Follow-ups due
+- Overdue follow-ups
+- Important quotations
+- At-risk leads
+
+This can appear within Home instead of becoming another navigation tab.
+
+---
+
+# 69. WEEKLY VIEW
+
+Every week summarize:
+
+**New Leads**
+
+**Follow-Ups Completed**
+
+**Quotes Sent**
+
+**Won**
+
+**Lost**
+
+**Leads Rescued**
+
+**Outstanding Actions**
+
+Keep weekly reporting simple.
+
+---
+
+# 70. CLIENT RETENTION PHILOSOPHY
+
+LeadGuard should keep customers connected with abcstudio because the application continues to deliver genuine business value.
+
+Do NOT use manipulative engagement mechanisms.
+
+The reasons clients return should be:
+
+- New leads
+- Follow-ups
+- Lead Rescue
+- Performance visibility
+- Recommendations
+- Monthly summaries
+- abcstudio support
+
+The application should strengthen abcstudio's position as an ongoing business growth partner.
+
+---
+
+# 71. SERVICE EXPANSION OPPORTUNITIES
+
+If a client does not use one of abcstudio's services, the app may gently explain the missing capability.
+
+Example:
+
+### Voice Lead Capture
+
+**Not currently connected**
+
+Description:
+
+**Capture enquiries that arrive through incoming calls and include them in LeadGuard.**
+
+Button:
+
+**Ask abcstudio**
+
+Do NOT use aggressive upselling.
+
+---
+
+# 72. FUTURE MODULES
+
+Architect the product so future modules can be added without redesigning the core application.
+
+Potential future modules:
+
+- Appointment booking
+- Quotations
+- Customer review management
+- Referral tracking
+- Marketing campaigns
+- Customer database
+- Sales forecasting
+- Review requests
+- Loyalty
+- Client education/resources
+- Business growth score
+- Customer reactivation
+- Additional reporting
+
+Do NOT build all of these in Version 1.
+
+---
+
+# 73. VERSION 1 — MVP
+
+The first production version should prioritize:
+
+## MUST HAVE
+
+1. Authentication
+2. Client accounts
+3. User roles
+4. Home dashboard
+5. Lead database
+6. Lead detail page
+7. Lead status
+8. Follow-up tracking
+9. Lead Rescue
+10. Manual lead creation
+11. Basic performance dashboard
+12. abcstudio recommendations
+13. Support requests
+14. abcstudio admin area
+15. Mobile responsive design
+
+---
+
+# 74. VERSION 1 — SHOULD HAVE
+
+If implementation allows without compromising simplicity:
+
+- Pipeline view
+- Notifications
+- Monthly Growth Summary
+- Team assignment
+- Search
+- Filters
+- Basic activity audit trail
+
+---
+
+# 75. VERSION 1 — DO NOT OVERBUILD
+
+Do NOT prioritize initially:
+
+- Complicated sales forecasting
+- Accounting
+- Full invoicing
+- Inventory management
+- Large marketing automation systems
+- Enterprise workflows
+- Complex custom reporting
+- Social network features
+- Hundreds of settings
+
+LeadGuard should solve the lead follow-up problem extremely well before expanding.
+
+---
+
+# 76. ONBOARDING
+
+New client onboarding should be short.
+
+### Step 1
+
+Business details.
+
+### Step 2
+
+Invite team members if needed.
+
+### Step 3
+
+Confirm active abcstudio services.
+
+### Step 4
+
+Select preferred notifications.
+
+### Step 5
+
+Enter LeadGuard.
+
+Avoid lengthy tutorials.
+
+Provide contextual tips inside the app instead.
+
+---
+
+# 77. DEMO / SAMPLE DATA
+
+For preview and development purposes create realistic placeholder demo data clearly marked as demonstration information.
+
+Example fictional businesses and contacts may be used.
+
+Do NOT imply demo data represents real abcstudio client results.
+
+---
+
+# 78. DASHBOARD SAMPLE
+
+Example visual information:
+
+**Good morning, James**
+
+Here is what needs your attention today.
+
+---
+
+**12**
+
+New Leads
+
+---
+
+**4**
+
+Need Follow-Up
+
+---
+
+**5**
+
+Quotes Pending
+
+---
+
+**2**
+
+At Risk
+
+---
+
+### Today's Priorities
+
+**ABC Engineering**
+
+Quotation sent 6 days ago.
+
+**Follow Up**
+
+---
+
+**Jane Lee**
+
+Website enquiry received yesterday.
+
+No response recorded.
+
+**Respond**
+
+---
+
+### This Week
+
+28 enquiries
+
+19 followed up
+
+7 quotations
+
+4 won
+
+---
+
+# 79. MONDAY LEAD RESCUE SAMPLE
+
+# Monday Lead Rescue
+
+**3 opportunities need attention this week.**
+
+---
+
+### ABC Engineering
+
+Quotation sent
+
+Last contact: 6 days ago
+
+**Why this appears**
+
+No follow-up recorded.
+
+**Recommended**
+
+Check whether the customer needs more information.
+
+---
+
+### XYZ Services
+
+New enquiry
+
+Received: 3 days ago
+
+**Why this appears**
+
+No response recorded.
+
+**Recommended**
+
+Contact the customer.
+
+---
+
+# 80. MONTHLY SUMMARY SAMPLE
+
+# August Growth Summary
+
+**42**
+
+Enquiries
+
+**31**
+
+Followed Up
+
+**12**
+
+Quotations
+
+**6**
+
+Won
+
+**5**
+
+Rescued
+
+---
+
+### What Improved
+
+Response time improved this month.
+
+### What Needs Attention
+
+Five open quotations are older than five days.
+
+### Recommended Next Step
+
+Review those quotations before the end of this week.
+
+---
+
+# 81. SUCCESS METRICS FOR LEADGUARD
+
+The product should eventually help abcstudio measure:
+
+- Percentage of leads with follow-up
+- Average response time
+- Number of overdue follow-ups
+- Number of leads rescued
+- Number of enquiries received
+- Lead-to-quotation rate
+- Quotation-to-won rate
+- Sources producing enquiries
+- Monthly active client usage
+
+Do not claim LeadGuard caused revenue improvements unless evidence supports the claim.
+
+---
+
+# 82. PRODUCT SUCCESS TEST
+
+Before considering the main UX complete, test whether a business owner can answer these questions without training:
+
+### 1.
+
+How many new leads do I have?
+
+### 2.
+
+Who needs follow-up?
+
+### 3.
+
+Which quotations are still open?
+
+### 4.
+
+Which leads may be going cold?
+
+### 5.
+
+Where did my leads come from?
+
+### 6.
+
+What is abcstudio recommending?
+
+### 7.
+
+How can I get help?
+
+If these answers are not obvious, simplify the interface.
+
+---
+
+# 83. ACCEPTANCE CRITERIA — HOME
+
+Home is successful when:
+
+- User immediately sees important numbers
+- User sees today's actions
+- User can reach an important lead quickly
+- At-risk leads are visible
+- No unnecessary information dominates the page
+
+---
+
+# 84. ACCEPTANCE CRITERIA — LEADS
+
+Lead management is successful when:
+
+- Lead can be created quickly
+- Lead can be found quickly
+- Status can be updated easily
+- Follow-up can be created
+- Activity is visible
+- Assigned staff is clear
+- Next action is clear
+
+---
+
+# 85. ACCEPTANCE CRITERIA — LEAD RESCUE
+
+Lead Rescue is successful when:
+
+- User understands why each lead appears
+- User knows the suggested action
+- User can act from the screen
+- User can mark the issue handled
+- Resolved leads do not continue appearing unnecessarily
+
+---
+
+# 86. ACCEPTANCE CRITERIA — PERFORMANCE
+
+Performance is successful when:
+
+- Business owner understands the information without marketing or analytics training
+- Data connects back to enquiries and growth
+- Technical jargon is minimized
+- Recommended actions are practical
+
+---
+
+# 87. ACCEPTANCE CRITERIA — MOBILE
+
+Mobile is successful when a customer can:
+
+1. Open LeadGuard
+2. See a lead requiring attention
+3. Open that lead
+4. Contact the customer
+5. Record the outcome
+
+with minimal taps.
+
+---
+
+# 88. CONTENT STYLE
+
+All client-facing writing should be:
+
+- Human
+- Short
+- Clear
+- Direct
+- Helpful
+- Non-technical
+
+Use:
+
+**3 leads need attention**
+
+instead of:
+
+**There are currently three unresolved records that satisfy predefined inactivity criteria.**
+
+---
+
+# 89. PRODUCT LANGUAGE
+
+Preferred terminology:
+
+**Lead**
+
+**Enquiry**
+
+**Follow-Up**
+
+**Next Step**
+
+**Lead Rescue**
+
+**Performance**
+
+**Recommendation**
+
+**Support**
+
+Avoid unnecessarily technical terminology.
+
+---
+
+# 90. CORE CUSTOMER JOURNEY
+
+LeadGuard should visualize the business journey as:
+
+# GET FOUND
+
+Website + Search Visibility
+
+↓
+
+# CAPTURE
+
+Website + Chatbot + Voice
+
+↓
+
+# RESPOND
+
+Owner / Team
+
+↓
+
+# FOLLOW UP
+
+LeadGuard
+
+↓
+
+# CONVERT
+
+Customer
+
+↓
+
+# GROW
+
+Performance + abcstudio Recommendations
+
+---
+
+# 91. ABCSTUDIO POSITIONING INSIDE THE PRODUCT
+
+abcstudio should appear as the partner helping clients improve their lead system.
+
+Do not make abcstudio dominate every screen.
+
+LeadGuard should feel like the client's own business control centre.
+
+abcstudio should appear naturally within:
+
+- Support
+- Recommendations
+- Growth Reviews
+- Monday Lead Rescue
+- Monthly Growth Summary
+
+---
+
+# 92. PRODUCT NORTH STAR
+
+The product's ultimate job is not merely to collect information.
+
+Its job is to help turn information into:
+
+# CLEAR NEXT ACTIONS
+
+Every important lead should eventually have one of these:
+
+- Response needed
+- Follow-up scheduled
+- Quotation pending
+- Next step recorded
+- Won
+- Lost
+
+Avoid leaving leads with unclear status indefinitely.
+
+---
+
+# 93. FINAL BUILD DIRECTIVE
+
+Build LeadGuard as a simple, premium, mobile-first customer application for abcstudio.
+
+Do not attempt to impress users through complexity.
+
+Impress them through clarity.
+
+The owner should open LeadGuard and immediately know:
+
+> **What happened?**
+
+> **Who needs my attention?**
+
+> **What should I do next?**
+
+Make the Home dashboard exceptional.
+
+Make follow-up effortless.
+
+Make Lead Rescue the signature feature.
+
+Connect the four abcstudio services into one coherent client experience.
+
+Make abcstudio support easy to access.
+
+Make the product valuable enough that clients continue using it after the initial website or digital project has been completed.
+
+Above all, every product decision should reinforce:
+
+# LEADGUARD BY ABCSTUDIO
+
+## NO LEAD LEFT BEHIND.
